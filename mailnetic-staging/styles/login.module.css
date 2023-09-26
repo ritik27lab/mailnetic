@@ -1,0 +1,140 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.primary-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 28px;
+  gap: 12px;
+
+  width: 100%;
+  height: 52px;
+
+  background: rgba(102, 102, 255, 0.3);
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 100px;
+
+  /* Inside Text */
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
+
+.primary-button.active {
+  background-color: #6871f1;
+}
+
+
+.social-sigin-icon {
+  height: 22px;
+  width: 22px;
+}
+
+.social-sigin-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: 54px;
+  width: 54px;
+  margin: 10px;
+  background: rgba(102, 102, 255, 0.1);
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 16px;
+
+  /* Transition for BG Color*/
+  transition: background-color 600ms;
+
+}
+
+.social-sigin-icon-wrapper:hover {
+  background: rgba(102, 102, 255, 0.05);
+}
+
+
+.or-divider-container {
+  display: flex;
+  /* flex:1; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.or-divider {
+  flex: inline;
+  flex: 1;
+  height: 1.5px;
+  background-color: #D0D5DD;
+}
+
+
+.otp-input {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  width: 64px;
+  height: 64px;
+
+  /* Base/White */
+  background: #FFFFFF;
+  border-radius: 20px;
+
+  /* Gray/300 */
+  border: 2px solid #D0D5DD;
+  margin-bottom: 1rem;
+  margin: 10px;
+
+  color: #000;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+
+  /* Styling Caret */
+  caret-color: #6871f1;
+  caret-shape: underscore;
+}
+
+.otp-input::selection {
+  /* Customize the background color of the caret */
+  caret-color: #6871f1;
+  /* Customize the text color of the caret */
+}
+
+
+.otp-input:focus {
+  /* Shadow/xs */
+  outline: none;
+  box-shadow: 0px 2px 2px rgba(16, 24, 40, 0.3);
+  border-color: #6871f1;
+  border-radius: 20px;
+}

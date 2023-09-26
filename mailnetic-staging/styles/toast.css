@@ -1,0 +1,7 @@
+.toast__toasts-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 999999;
+}

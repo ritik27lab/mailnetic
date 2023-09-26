@@ -1,0 +1,11 @@
+.email-text-area {
+    height: 70%;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f8f8f8;
+    color: #333;
+    resize: none;
+}

@@ -1,0 +1,32 @@
+.toast-container {
+    border-radius: 20px;
+    display: inline-flex;
+align-items: center;
+padding: 15px;
+border-width: 2px;
+/* width :500px; */
+margin-top: 10px;
+}
+
+.toast-title {
+   color: var(--main-secondary-black, #000);
+/* Body/XL Semi Bold */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.18px;
+}
+
+.toast-message {
+    color: #667085;
+/* Body/L Medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.16px;
+
+}

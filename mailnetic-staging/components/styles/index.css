@@ -1,0 +1,100 @@
+@import url('./taginput.module.css');
+@import url('./button.module.css');
+
+
+.chat-container {
+    width: 380px;
+    border-color: #1f5a82;
+    border-width: 1px;
+    border-radius: 20px;
+    height: 700px;
+    background-color: #1f5a82;
+    flex-direction: column;
+    display: flex;
+    margin-right: 30px;
+}
+
+.chat_body_container {
+    flex: 1;
+    align-items: center;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text_input {
+    width: 94%;
+    margin: 10px;
+    color: #fff;
+}
+
+.chat_item_container {
+    width: 92%;
+    margin-top: 25px;
+}
+
+.header_live_chat {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header_prompt_create {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.modal_backdrop {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.modal_backdrop_won {
+    background-color: rgba(43, 137, 43, 0.7);
+}
+
+.modal_backdrop_lost {
+    background-color: rgba(195, 25, 25, 0.75);
+}
+
+.claim_text_button {
+    font-family: monospace;
+    color: #fff;
+    margin: 0;
+}
+
+.claim_description{
+    font-size: large;
+    font-family: monospace;
+    color: #fff;
+    font-weight: 500;
+}
+
+.date{
+    font-size:12px;
+    font-family: monospace;
+    color: #fff;
+    font-weight: 500;
+    line-height: 12px;
+    vertical-align: middle;
+}
+
+.bottom_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-vertical-center{
+    vertical-align: middle;
+}
